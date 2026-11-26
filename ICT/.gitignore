@@ -1,0 +1,15 @@
+# Environment secrets — never commit these
+.env
+.env.*
+
+# Local submission store (created when email is not configured)
+data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
